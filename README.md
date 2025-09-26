@@ -1,6 +1,6 @@
 # Elektrizitätswerk Wangen Electricity Data
 
-This repository provides **open electricity data** for [Groupe E](./data/supplier.json).  It is part of the [Strompreise Schweiz](https://www.strompreise-schweiz.ch) initiative.
+This repository provides **open electricity data** for [elektrizitaetswerk-wangen](./data/supplier.json).  It is part of the [Strompreise Schweiz](https://www.strompreise-schweiz.ch) initiative.
 
 ## Contents
 
