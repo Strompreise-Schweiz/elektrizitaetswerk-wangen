@@ -1,6 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Strompreise-Schweiz/strompreise-schemas/v1/suppliers/power-utility/supplier.schema.json",
-  "id": "elektrizitaetswerk-wangen",
+  "$schema": "https://raw.githubusercontent.com/Strompreise-Schweiz/supplier-data-validation/main/suppliers/power-utility/v1/supplier.schema.json",
   "name": "Elektrizitätswerk Wangen",
   "location": {
     "address": {
