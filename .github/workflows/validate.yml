@@ -6,3 +6,10 @@ jobs:
     uses: Strompreise-Schweiz/supplier-data-validation/.github/workflows/validate_supplier_power_utility.yml@main
     with:
       supplier_schema_version: v1
+
+  call_validate_tariff_emn_050:
+    uses: Strompreise-Schweiz/supplier-data-validation/.github/workflows/validate_tariff_static.yml@main
+    with:
+      tariff_schema_version: v1
+      tariff_name: emn-050
+

@@ -2,6 +2,15 @@
   "name": "EMN 50",
   "description": "Haushalt / Kleingewerbe",
   "meta": { "timezone": "Europe/Zurich" },
+  "electricity_origin": {
+    "definition": "CH_Stromkennzeichnung",
+    "metric": "renewable_share_percent",
+    "by_year": {
+      "2025": 62.0,
+      "2026": [64.5, 64.5, 65.2, 66.0]
+    },
+    "default_share_percent": 60.0
+  },
   "prices": [
     {
       "start_timestamp": "2025-01-01T00:00:00+01:00",
@@ -17,19 +26,25 @@
       "dso": [
         { "component": "work", "unit": "CHF/kWh", "value": 0.0308 }
       ],
-
+      "integrated": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.3359 },
+        { "component": "base", "mode":"fixed", "unit": "CHF/m",   "value": 10.5 }
+      ],
+      "feed_in": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.25 }
+      ],
       "overrides": [
         {
           "name": "Werktags Hochtarif",
           "weekdays": [1,2,3,4,5],
           "intervals": [{ "from": "07:00", "to": "20:00" }],
-          "set": { "grid.work": 0.097 }
+          "set": { "grid.work": 0.097, "integrated.work": 0.3519 }
         },
-                {
+        {
           "name": "Samstag Hochtarif",
           "weekdays": [6],
           "intervals": [{ "from": "07:00", "to": "13:00" }],
-          "set": { "grid.work": 0.097 }
+          "set": { "grid.work": 0.097, "integrated.work": 0.3519 }
         }
       ]
     }
