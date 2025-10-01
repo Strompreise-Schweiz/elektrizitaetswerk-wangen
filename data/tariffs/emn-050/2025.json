@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Strompreise-Schweiz/supplier-data-validation/main/tariffs/static/v1/tariff.schema.json",
   "name": "EMN 50",
   "description": "Haushalt / Kleingewerbe",
   "meta": { "timezone": "Europe/Zurich" },
