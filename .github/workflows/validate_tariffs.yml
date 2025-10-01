@@ -7,4 +7,4 @@ jobs:
     with:
       tariff_schema_version: v1
       tariff_name: emn-050
-
+      tariff_year: 2025
