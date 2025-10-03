@@ -27,6 +27,9 @@
         { "component": "work", "unit": "CHF/kWh", "value": 0.081 },
         { "component": "base", "mode":"fixed", "unit": "CHF/m",   "value": 10.5 }
       ],
+      "metering": [
+        { "component": "base", "unit": "CHF/m", "mode": "fixed", "value": 0 }
+      ],
       "dso": [
         { "component": "work", "unit": "CHF/kWh", "value": 0.0308 }
       ],
@@ -62,6 +65,9 @@
       "grid": [
         { "component": "work", "unit": "CHF/kWh", "value": 0.081 },
         { "component": "base", "mode":"fixed", "unit": "CHF/m",   "value": 10.5 }
+      ],
+      "metering": [
+        { "component": "base", "unit": "CHF/m", "mode": "fixed", "value": 0 }
       ],
       "dso": [
         { "component": "work", "unit": "CHF/kWh", "value": 0.0308 }
