@@ -2,7 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/Strompreise-Schweiz/supplier-data-validation/main/tariffs/static/v1/tariff.schema.json",
   "name": "EMN 50",
   "description": "Haushalt / Kleingewerbe",
-  "meta": { "timezone": "Europe/Zurich" },
+  "meta": {
+    "timezone": "Europe/Zurich",
+    "vat_rate_percent": 8.1
+  },
   "electricity_origin": {
     "definition": "CH_Stromkennzeichnung",
     "metric": "renewable_share_percent",
