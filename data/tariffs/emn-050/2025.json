@@ -48,6 +48,78 @@
           "set": { "grid.work": 0.097, "integrated.work": 0.3519 }
         }
       ]
+    },
+    {
+      "start_timestamp": "2025-04-01T00:00:00+02:00",
+      "end_timestamp": "2025-10-01T00:00:00+02:00",
+
+      "electricity": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.128 }
+      ],
+      "grid": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.081 },
+        { "component": "base", "mode":"fixed", "unit": "CHF/m",   "value": 10.5 }
+      ],
+      "dso": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.0308 }
+      ],
+      "integrated": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.2398 },
+        { "component": "base", "mode":"fixed", "unit": "CHF/m",   "value": 10.5 }
+      ],
+      "feed_in": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.25 }
+      ],
+      "overrides": [
+        {
+          "name": "Werktags Hochtarif",
+          "weekdays": [1,2,3,4,5],
+          "intervals": [{ "from": "07:00", "to": "20:00" }],
+          "set": { "grid.work": 0.097, "integrated.work": 0.2558 }
+        },
+        {
+          "name": "Samstag Hochtarif",
+          "weekdays": [6],
+          "intervals": [{ "from": "07:00", "to": "13:00" }],
+          "set": { "grid.work": 0.097, "integrated.work": 0.2558 }
+        }
+      ]
+    },
+    {
+      "start_timestamp": "2025-10-01T00:00:00+02:00",
+      "end_timestamp": "2026-01-01T00:00:00+01:00",
+
+      "electricity": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.2241 }
+      ],
+      "grid": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.081 },
+        { "component": "base", "mode":"fixed", "unit": "CHF/m",   "value": 10.5 }
+      ],
+      "dso": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.0308 }
+      ],
+      "integrated": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.3359 },
+        { "component": "base", "mode":"fixed", "unit": "CHF/m",   "value": 10.5 }
+      ],
+      "feed_in": [
+        { "component": "work", "unit": "CHF/kWh", "value": 0.25 }
+      ],
+      "overrides": [
+        {
+          "name": "Werktags Hochtarif",
+          "weekdays": [1,2,3,4,5],
+          "intervals": [{ "from": "07:00", "to": "20:00" }],
+          "set": { "grid.work": 0.097, "integrated.work": 0.3519 }
+        },
+        {
+          "name": "Samstag Hochtarif",
+          "weekdays": [6],
+          "intervals": [{ "from": "07:00", "to": "13:00" }],
+          "set": { "grid.work": 0.097, "integrated.work": 0.3519 }
+        }
+      ]
     }
   ]
 }
