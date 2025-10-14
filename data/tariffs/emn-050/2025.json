@@ -4,16 +4,13 @@
   "description": "Haushalt / Kleingewerbe",
   "meta": {
     "timezone": "Europe/Zurich",
-    "vat_rate_percent": 8.1
+    "vat_rate_percent": 8.1,
+    "info_url": "https://www.ewwangensz.ch/public/upload/assets/5460/EMN%20050_2025.pdf"
   },
   "electricity_origin": {
     "definition": "CH_Stromkennzeichnung",
     "metric": "renewable_share_percent",
-    "by_year": {
-      "2025": 62.0,
-      "2026": [64.5, 64.5, 65.2, 66.0]
-    },
-    "default_share_percent": 60.0
+    "by_quarter": [64.5, 64.5, 65.2, 66.0]
   },
   "prices": [
     {
