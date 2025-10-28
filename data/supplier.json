@@ -21,5 +21,20 @@
   "uid": "CHE-115.249.566",
   "vse_id": "CH10357012345",
   "website": "https://www.ewwangensz.ch",
-  "email": "kundendienst@ewwangensz.ch"
+  "email": "kundendienst@ewwangensz.ch",
+  "logo": {
+    "path": "./logo.png",
+    "mime_type": "image/png"
+  },
+  "tariff_refs": {
+    "annual": [
+      {
+        "id": "annual-2025-residential",
+        "path": "./data/tariffs/annual-2025-residential.json",
+        "valid_from": "2025-01-01",
+        "valid_to": "2025-12-31",
+        "description": "Haushaltstarif 2025 (fix, jährlich)"
+      }
+    ]
+  }
 }
